@@ -1,0 +1,84 @@
+@media screen and (max-width: 768px){
+	.container{
+		width: 90%;
+	}
+	.logo_menu{
+		flex-direction: column;
+	}
+	.content{
+		flex-direction: column;
+		width: 100%;
+		text-align: center;
+	}
+	.client{
+		flex-direction: column;
+	}
+	.client_image{
+		display: flex;
+		justify-content: center;
+	}
+	.logos_logo {
+		flex-wrap: wrap;
+		img{
+		display: block;
+		width: auto;
+		}
+	}
+	.contact_info{
+		flex-direction: column;
+		p{
+			width: 100%;
+		}
+	}
+}
+@media screen and (max-width: 576px){
+	.menu ul{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		li{
+			margin: 10px;
+		}
+	}
+	.skills_content{
+		flex-direction: column;
+		width: 100%;
+	}
+	.skills_block{
+		flex-direction: column;
+		width: 100%;
+		.skills_text{
+			text-align: center;
+		}
+	}
+	.team_members{
+		flex-direction: column;
+	}
+	.contact_container{
+		flex-direction: column;
+	}
+	.skills_content{
+		width: auto;
+	}
+	.skills_block{
+		width: auto;
+	}
+	.skills_text{
+		margin-left: 0;
+	}
+	.logos_logo img{
+		margin: 10px;
+	}
+	.contact_content{
+		width: 100%;
+	}
+	.contact_content_title{
+		text-align: center;
+	}
+	.client_text{
+		width: 100%;
+	}
+	.member{
+		margin: 10px;
+	}
+}

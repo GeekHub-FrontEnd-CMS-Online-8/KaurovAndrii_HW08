@@ -1,0 +1,190 @@
+/*awesome cliants*/
+#clients{
+	background-color: #fafafa;
+}
+.client_content{
+	margin: 100px 0;
+	p{
+		font-size: $fs*2;
+	}
+	h2, p{
+		text-align: center;
+	}
+}
+.client{
+	margin: 30px;
+	display: flex;
+	img{
+	padding: 30px;
+	border: 5px solid #111111;
+	border-radius: 50%;
+	}
+	.client_text{
+		border: 2px solid #f1f1f1;
+		background-color: #ffffff;
+		margin: 0 40px;
+		padding: 20px;
+		p{
+			color: #777777;
+			font-size: $fs*2.5;
+		}
+		span{
+			color: #7690c5;
+			font-size: $fs*2;
+		}
+	}
+}
+.logos_logo{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 50px 0;
+	img{
+	display: block;
+	}
+}
+/*amazing team*/
+#team{
+	background-color: #111111;
+	color: #ffffff;
+}
+.team_content{
+	text-align: center;
+	margin: 100px 0;
+}
+.team_content_title{
+	h2{
+		font-size: $fs*6;
+		span{
+			font-weight: $fwr;
+		}
+	}
+	p{
+		font-size: $fs*2.5;
+		color: #5c5c5c;
+	}
+}
+.team_members{
+	display: flex;
+	justify-content: space-around;
+	margin: 50px 0;
+	.member{
+		img{
+			border: 5px solid #ffffff;
+			border-radius: 50%;
+			padding: 20px;
+			background: #111111;
+		}
+	}
+}
+.socbar {
+	display: flex;
+	justify-content: space-around;
+	a{
+	font-size: $fs*2;
+	text-decoration: none;
+	color: #ffffff;
+	border: 3px solid #ffffff;
+	border-radius: 50%;
+	padding: 10px;
+	&:hover{
+		transition: 1s;
+		color: #111111;
+	}
+		i{
+			width: 25px;
+			height: 25px;
+		}
+	}
+}
+.team_text p{
+	width: 60%;
+	margin: 0 auto;
+	font-size: $fs*2;
+}
+.twitter:hover{
+	background: #1DA1F2;
+}
+.facebook:hover{
+	background: #3B5998;
+}
+.pinterest:hover{
+	background: #BD081C;
+}
+.google:hover{
+	background: #DD4C40;
+}
+
+/*concact*/
+
+#contact{
+	background-color: #7690c5;
+	color: #ffffff;
+}
+.contact_container{
+	display: flex;
+	margin: 100px 0;
+}
+.contact_content{
+	width: 50%;
+}
+.contact_content_title{
+	h2{
+		font-size: $fs*6;
+		span{
+			font-weight: $fwr;
+		}
+	}
+	p{
+		font-size: $fs*2;
+		width: 90%;
+	}
+}
+.contact_info{
+	display: flex;
+	flex-wrap: wrap;
+	p{
+		width: 50%;
+		font-size: $fs*2;
+		i{
+			margin-right: 10px;
+		}
+	}
+}
+.contact_container form{
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	width: auto;
+	input{
+		padding: 5% 55% 5% 5%;
+		width: 40%;
+		color: #bbbbbb;
+		border-radius: 5px;
+		&:focus{
+		background: lime;
+		color: #111111;
+		}
+	}
+	textarea{
+		padding: 5% 40% 5% 5%;
+		width: 50%;
+		color: #bbbbbb;
+		border-radius: 5px;
+		&:focus{
+		background: lime;
+		color: #111111;
+		}
+	}
+	button{
+		padding: 10px 40px;
+		align-self: center;
+		font-size: $fs*2;
+		background: #ffffff;
+		border: 2px solid #111111;
+		border-radius: 5px;
+		&:hover{
+			background: linear-gradient(30deg, #DD796C, #CEDD45);
+		}
+	}
+}
